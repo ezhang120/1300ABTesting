@@ -1,6 +1,6 @@
 /* Feel free to modify anything in this file.*/
 html body {
-	background-color: #ecedd5;
+	background-color: #d8fdd8;
 }
 
 header {
@@ -27,6 +27,22 @@ header {
 
 .content-pane {
   padding: 40px;
+}
+
+.content-pane-B{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cart-B{
+  float: right;
+  margin-right: 5%;
+}
+
+.price{
+  font-weight: bold;
+  font-size: 200%
 }
 
 .fa-stack[data-count]:after{
